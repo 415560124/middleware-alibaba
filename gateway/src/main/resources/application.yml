@@ -1,0 +1,35 @@
+server:
+  port: 20000
+spring:
+  application:
+    name: gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+    gateway:
+      discovery:
+        # 开启gateway从nacos上获取服务列表
+        locator:
+          enabled: true
+      routes:
+      # 转发到gw服务
+      - id: resource-gw
+        uri: lb://resource-gw
+        predicates:
+        - Path=/gw/**
+management:
+  # 开放详情端口并允许查看详情
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
+logging:
+  level:
+    org:
+      zalando:
+        logbook: TRACE
+
