@@ -6,10 +6,10 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-public class ResourceGwApplication {
+public class GwServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ResourceGwApplication.class, args);
+        SpringApplication.run(GwServiceApplication.class, args);
     }
 
 }

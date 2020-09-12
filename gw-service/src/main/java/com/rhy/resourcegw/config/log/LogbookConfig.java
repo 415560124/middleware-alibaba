@@ -7,6 +7,7 @@ import org.zalando.logbook.Logbook;
 import org.zalando.logbook.StreamHttpLogWriter;
 import org.zalando.logbook.json.JsonHttpLogFormatter;
 
+
 /**
  * @author Rhy
  * @title 日志配置

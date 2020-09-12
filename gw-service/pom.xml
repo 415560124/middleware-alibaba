@@ -9,8 +9,8 @@
     </parent>
 
     <groupId>com.rhy</groupId>
-    <artifactId>resource-gw</artifactId>
-    <name>resource-gw</name>
+    <artifactId>gw-service</artifactId>
+    <name>gw-service</name>
     <description>Spring cloud alibaba demo - 资源服务器</description>
 
     <properties>
@@ -50,6 +50,10 @@
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+        </dependency>
 
         <!-- httpclient -->
         <dependency>
@@ -74,6 +78,10 @@
         <dependency>
             <groupId>org.zalando</groupId>
             <artifactId>logbook-json</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
         </dependency>
     </dependencies>
     <build>
