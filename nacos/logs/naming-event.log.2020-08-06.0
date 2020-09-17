@@ -1,0 +1,30 @@
+2020-08-06 09:07:55,986 INFO {POS} {IP-DISABLED} valid: 192.168.2.205:20000@DEFAULT@DEFAULT_GROUP@@gateway, region: unknown, msg: client timeout after 15000, last beat: 1596533480068
+
+2020-08-06 09:07:55,985 INFO {POS} {IP-DISABLED} valid: 192.168.2.205:20100@DEFAULT@DEFAULT_GROUP@@resource-gw, region: unknown, msg: client timeout after 15000, last beat: 1596533480354
+
+2020-08-06 09:07:55,987 INFO service: DEFAULT_GROUP@@gateway {POS} {IP-ENABLED} valid: 192.168.2.205:20000@DEFAULT, region: unknown, msg: client beat ok
+
+2020-08-06 09:07:55,991 INFO DEFAULT_GROUP@@gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.205:20000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-08-06 09:07:55,992 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway, ips: 
+
+2020-08-06 09:07:55,993 INFO DEFAULT_GROUP@@resource-gw {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.205:20100:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-08-06 09:07:55,993 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@resource-gw, ips: 
+
+2020-08-06 09:07:56,127 INFO DEFAULT_GROUP@@resource-gw {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.205:20100:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-08-06 09:07:56,127 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@resource-gw, ips: 192.168.2.205:20100_true,
+
+2020-08-06 09:08:00,943 INFO DEFAULT_GROUP@@gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.205:20000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-08-06 09:08:00,944 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway, ips: 192.168.2.205:20000_true,
+
+2020-08-06 09:10:34,969 INFO DEFAULT_GROUP@@resource-gw {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.205:20100:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-08-06 09:10:34,972 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@resource-gw, ips: 192.168.2.205:20100_true,
+
+2020-08-06 09:10:34,975 INFO DEFAULT_GROUP@@gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.205:20000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-08-06 09:10:34,975 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway, ips: 192.168.2.205:20000_true,
+

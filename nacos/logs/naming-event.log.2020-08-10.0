@@ -1,0 +1,34 @@
+2020-08-10 09:02:06,954 INFO {POS} {IP-DISABLED} valid: 192.168.2.205:20100@DEFAULT@DEFAULT_GROUP@@gw-service, region: unknown, msg: client timeout after 15000, last beat: 1596792642935
+
+2020-08-10 09:02:07,829 INFO DEFAULT_GROUP@@gw-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.205:20100:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-08-10 09:02:07,829 INFO [IP-UPDATED] namespace: dev, service: DEFAULT_GROUP@@gw-service, ips: 
+
+2020-08-10 09:02:08,850 INFO DEFAULT_GROUP@@gw-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.205:20100:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-08-10 09:02:08,850 INFO [IP-UPDATED] namespace: dev, service: DEFAULT_GROUP@@gw-service, ips: 192.168.2.205:20100_true,
+
+2020-08-10 09:04:03,054 INFO {POS} {IP-DISABLED} valid: 192.168.2.205:20100@DEFAULT@DEFAULT_GROUP@@gw-service, region: unknown, msg: client timeout after 15000, last beat: 1597021424207
+
+2020-08-10 09:04:18,089 INFO DEFAULT_GROUP@@gw-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.205:20100:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-08-10 09:04:18,089 INFO [IP-UPDATED] namespace: dev, service: DEFAULT_GROUP@@gw-service, ips: 
+
+2020-08-10 09:43:07,981 INFO DEFAULT_GROUP@@gateway-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.205:20000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-08-10 09:43:07,981 INFO [IP-UPDATED] namespace: dev, service: DEFAULT_GROUP@@gateway-service, ips: 192.168.2.205:20000_true,
+
+2020-08-10 09:48:04,337 INFO DEFAULT_GROUP@@gw-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.205:20100:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-08-10 09:48:04,337 INFO [IP-UPDATED] namespace: dev, service: DEFAULT_GROUP@@gw-service, ips: 192.168.2.205:20100_true,
+
+2020-08-10 09:51:44,287 INFO DEFAULT_GROUP@@gw-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.205:21000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-08-10 09:51:44,287 INFO [IP-UPDATED] namespace: dev, service: DEFAULT_GROUP@@gw-service, ips: 192.168.2.205:20100_true,192.168.2.205:21000_true,
+
+2020-08-10 09:51:49,674 INFO {POS} {IP-DISABLED} valid: 192.168.2.205:20100@DEFAULT@DEFAULT_GROUP@@gw-service, region: unknown, msg: client timeout after 15000, last beat: 1597024289778
+
+2020-08-10 09:52:04,691 INFO DEFAULT_GROUP@@gw-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.205:20100:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-08-10 09:52:04,691 INFO [IP-UPDATED] namespace: dev, service: DEFAULT_GROUP@@gw-service, ips: 192.168.2.205:21000_true,
+

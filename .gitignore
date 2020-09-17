@@ -34,3 +34,5 @@ resource-gw/.gitignore
 resource-gw/.mvn/
 resource-gw/mvnw
 resource-gw/mvnw.cmd
+/user-service/.mvn/
+/auth-center/.mvn/

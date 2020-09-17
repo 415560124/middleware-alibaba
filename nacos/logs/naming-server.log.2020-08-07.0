@@ -1,0 +1,76 @@
+2020-08-07 08:56:19,159 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@resource-gw, ip: {"instanceId":"192.168.2.205#20100#DEFAULT#DEFAULT_GROUP@@resource-gw","ip":"192.168.2.205","port":20100,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@resource-gw","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1596685960594,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000}
+
+2020-08-07 08:56:19,159 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@gateway, ip: {"instanceId":"192.168.2.205#20000#DEFAULT#DEFAULT_GROUP@@gateway","ip":"192.168.2.205","port":20000,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1596685959351,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000}
+
+2020-08-07 08:56:19,862 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@resource-gw, value: {"instanceList":[]}
+
+2020-08-07 08:56:19,863 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@gateway, value: {"instanceList":[]}
+
+2020-08-07 08:56:20,606 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@resource-gw, value: {"instanceList":[{"instanceId":"192.168.2.205#20100#DEFAULT#DEFAULT_GROUP@@resource-gw","ip":"192.168.2.205","port":20100,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@resource-gw","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1596761780604,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000}]}
+
+2020-08-07 08:56:22,283 ERROR local ip is not in serverlist, ip: 192.168.126.1:8848, serverlist: [Member{ip='192.168.2.205', port=8848, state=UP, extendInfo={adWeight=0, naming={ip=192.168.126.1:8848, heartbeatDueMs=3677, term=352, leaderDueMs=4849, state=FOLLOWER}, raftPort=7848, site=unknow, weight=1}}]
+
+2020-08-07 08:56:24,350 ERROR local ip is not in serverlist, ip: 192.168.126.1:8848, serverlist: [Member{ip='192.168.2.205', port=8848, state=UP, extendInfo={adWeight=0, naming={ip=192.168.126.1:8848, heartbeatDueMs=1677, term=352, leaderDueMs=2849, state=FOLLOWER}, raftPort=7848, site=unknow, weight=1}}]
+
+2020-08-07 08:56:24,712 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@gateway, value: {"instanceList":[{"instanceId":"192.168.2.205#20000#DEFAULT#DEFAULT_GROUP@@gateway","ip":"192.168.2.205","port":20000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1596761784711,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000}]}
+
+2020-08-07 08:56:24,857 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@gateway, value: {"instanceList":[{"instanceId":"192.168.2.205#20000#DEFAULT#DEFAULT_GROUP@@gateway","ip":"192.168.2.205","port":20000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1596761784711,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000}]}
+
+2020-08-07 08:56:26,360 ERROR local ip is not in serverlist, ip: 192.168.126.1:8848, serverlist: [Member{ip='192.168.2.205', port=8848, state=UP, extendInfo={adWeight=0, naming={ip=192.168.126.1:8848, heartbeatDueMs=5000, term=352, leaderDueMs=849, state=FOLLOWER}, raftPort=7848, site=unknow, weight=1}}]
+
+2020-08-07 08:56:28,381 ERROR local ip is not in serverlist, ip: 192.168.126.1:8848, serverlist: [Member{ip='192.168.2.205', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=192.168.126.1:8848, ip=192.168.126.1:8848, heartbeatDueMs=4000, term=353, leaderDueMs=14392, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2020-08-07 08:56:30,395 ERROR local ip is not in serverlist, ip: 192.168.126.1:8848, serverlist: [Member{ip='192.168.2.205', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=192.168.126.1:8848, ip=192.168.126.1:8848, heartbeatDueMs=2000, term=353, leaderDueMs=12392, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2020-08-07 08:56:32,403 ERROR local ip is not in serverlist, ip: 192.168.126.1:8848, serverlist: [Member{ip='192.168.2.205', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=192.168.126.1:8848, ip=192.168.126.1:8848, heartbeatDueMs=5000, term=353, leaderDueMs=10392, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2020-08-07 08:56:34,416 ERROR local ip is not in serverlist, ip: 192.168.126.1:8848, serverlist: [Member{ip='192.168.2.205', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=192.168.126.1:8848, ip=192.168.126.1:8848, heartbeatDueMs=3000, term=353, leaderDueMs=8392, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2020-08-07 08:56:36,419 ERROR local ip is not in serverlist, ip: 192.168.126.1:8848, serverlist: [Member{ip='192.168.2.205', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=192.168.126.1:8848, ip=192.168.126.1:8848, heartbeatDueMs=1000, term=353, leaderDueMs=6392, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2020-08-07 08:56:38,425 ERROR local ip is not in serverlist, ip: 192.168.126.1:8848, serverlist: [Member{ip='192.168.2.205', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=192.168.126.1:8848, ip=192.168.126.1:8848, heartbeatDueMs=4500, term=353, leaderDueMs=4392, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2020-08-07 08:56:40,440 ERROR local ip is not in serverlist, ip: 192.168.126.1:8848, serverlist: [Member{ip='192.168.2.205', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=192.168.126.1:8848, ip=192.168.126.1:8848, heartbeatDueMs=2500, term=353, leaderDueMs=2392, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2020-08-07 08:56:42,450 ERROR local ip is not in serverlist, ip: 192.168.126.1:8848, serverlist: [Member{ip='192.168.2.205', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=192.168.126.1:8848, ip=192.168.126.1:8848, heartbeatDueMs=500, term=353, leaderDueMs=392, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2020-08-07 08:56:44,458 ERROR local ip is not in serverlist, ip: 192.168.126.1:8848, serverlist: [Member{ip='192.168.2.205', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=192.168.126.1:8848, ip=192.168.126.1:8848, heartbeatDueMs=3500, term=354, leaderDueMs=13506, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2020-08-07 08:56:46,462 ERROR local ip is not in serverlist, ip: 192.168.126.1:8848, serverlist: [Member{ip='192.168.2.205', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=192.168.126.1:8848, ip=192.168.126.1:8848, heartbeatDueMs=1500, term=354, leaderDueMs=11506, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2020-08-07 08:56:48,471 ERROR local ip is not in serverlist, ip: 192.168.126.1:8848, serverlist: [Member{ip='192.168.2.205', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=192.168.126.1:8848, ip=192.168.126.1:8848, heartbeatDueMs=4500, term=354, leaderDueMs=9506, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2020-08-07 08:56:50,472 ERROR local ip is not in serverlist, ip: 192.168.126.1:8848, serverlist: [Member{ip='192.168.2.205', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=192.168.126.1:8848, ip=192.168.126.1:8848, heartbeatDueMs=2500, term=354, leaderDueMs=7506, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2020-08-07 08:56:52,474 ERROR local ip is not in serverlist, ip: 192.168.126.1:8848, serverlist: [Member{ip='192.168.2.205', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=192.168.126.1:8848, ip=192.168.126.1:8848, heartbeatDueMs=500, term=354, leaderDueMs=5506, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2020-08-07 09:20:17,194 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@resource-gw, ip: {"instanceId":"192.168.2.205#20100#DEFAULT#DEFAULT_GROUP@@resource-gw","ip":"192.168.2.205","port":20100,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@resource-gw","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1596763183655,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000}
+
+2020-08-07 09:20:17,197 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@resource-gw, value: {"instanceList":[]}
+
+2020-08-07 09:20:17,240 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@gateway, ip: {"instanceId":"192.168.2.205#20000#DEFAULT#DEFAULT_GROUP@@gateway","ip":"192.168.2.205","port":20000,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1596763182807,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000}
+
+2020-08-07 09:20:17,242 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@gateway, value: {"instanceList":[]}
+
+2020-08-07 09:22:22,189 WARN namespace : public, [DEFAULT_GROUP@@gateway] services are automatically cleaned
+
+2020-08-07 09:22:22,191 WARN namespace : public, [DEFAULT_GROUP@@resource-gw] services are automatically cleaned
+
+2020-08-07 09:22:22,197 INFO [DEAD-SERVICE] {"name":"DEFAULT_GROUP@@gateway","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":5,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1596763217242,"checksum":"8ff35773526d747efb5695ccef0e3264","clusterMap":{"DEFAULT":{"serviceName":"DEFAULT_GROUP@@gateway","name":"DEFAULT","healthChecker":{"type":"TCP"},"defaultPort":80,"defaultCheckPort":80,"useIPPort4Check":true,"metadata":{},"sitegroup":"","defCkport":80,"empty":true,"defIPPort":80}},"empty":true}
+
+2020-08-07 09:22:22,198 INFO [DEAD-SERVICE] {"name":"DEFAULT_GROUP@@resource-gw","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":5,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1596763217197,"checksum":"f329cf8826da4e8e6a9a805752f8e64a","clusterMap":{"DEFAULT":{"serviceName":"DEFAULT_GROUP@@resource-gw","name":"DEFAULT","healthChecker":{"type":"TCP"},"defaultPort":80,"defaultCheckPort":80,"useIPPort4Check":true,"metadata":{},"sitegroup":"","defCkport":80,"empty":true,"defIPPort":80}},"empty":true}
+
+2020-08-07 10:03:27,010 INFO creating empty service dev:DEFAULT_GROUP@@gw-service
+
+2020-08-07 10:03:27,010 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@gw-service","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"dev","ipDeleteTimeout":30000,"lastModifiedMillis":1596765807010,"checksum":"dc95bcf527bc54df9c6f97f691ec1a76","clusterMap":{},"empty":true}
+
+2020-08-07 10:03:27,011 WARN cluster: DEFAULT not found, ip: {"instanceId":"192.168.2.205#20100#DEFAULT#DEFAULT_GROUP@@gw-service","ip":"192.168.2.205","port":20100,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gw-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1596765807010,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000}, will create new cluster with default configuration.
+
+2020-08-07 10:03:27,011 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.dev##DEFAULT_GROUP@@gw-service, value: {"instanceList":[{"instanceId":"192.168.2.205#20100#DEFAULT#DEFAULT_GROUP@@gw-service","ip":"192.168.2.205","port":20100,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gw-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1596765807010,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000}]}
+
+2020-08-07 13:20:50,905 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.dev##DEFAULT_GROUP@@gw-service, value: {"instanceList":[{"instanceId":"192.168.2.205#20100#DEFAULT#DEFAULT_GROUP@@gw-service","ip":"192.168.2.205","port":20100,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gw-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1596777650904,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000}]}
+
+2020-08-07 13:21:18,139 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.dev##DEFAULT_GROUP@@gw-service, value: {"instanceList":[{"instanceId":"192.168.2.205#20100#DEFAULT#DEFAULT_GROUP@@gw-service","ip":"192.168.2.205","port":20100,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gw-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1596777678139,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000}]}
+
+2020-08-07 13:21:34,581 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.dev##DEFAULT_GROUP@@gw-service, value: {"instanceList":[{"instanceId":"192.168.2.205#20100#DEFAULT#DEFAULT_GROUP@@gw-service","ip":"192.168.2.205","port":20100,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gw-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1596777694581,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000}]}
+

@@ -10,7 +10,7 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>gw-service</module>
+        <module>user-service</module>
         <module>gateway</module>
         <module>common</module>
     </modules>
