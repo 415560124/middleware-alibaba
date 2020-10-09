@@ -36,4 +36,4 @@ resource-gw/mvnw
 resource-gw/mvnw.cmd
 /user-service/.mvn/
 /auth-center/.mvn/
-/nacos/window/logs/
+/nacos/windows/logs/
