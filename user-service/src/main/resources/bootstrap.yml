@@ -1,8 +1,8 @@
 server:
-  port: 21000
+  port: 20100
 spring:
   application:
-    name: gw-service
+    name: user-service
   profiles:
     active: dev
   # 最终拼接配置文件路径 ${application.name}-${spring.profiles.active}.${file-extension}

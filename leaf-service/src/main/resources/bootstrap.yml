@@ -1,0 +1,17 @@
+server:
+  port: 20200
+spring:
+  application:
+    name: leaf-service
+  profiles:
+    active: dev
+  # 最终拼接配置文件路径 ${application.name}-${spring.profiles.active}.${file-extension}
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        namespace: dev
+      config:
+        file-extension: yml
+        namespace: dev
+

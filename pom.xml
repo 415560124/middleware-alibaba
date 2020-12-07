@@ -36,7 +36,7 @@
         <spring-cloud-starter-gateway.version>2.2.4.RELEASE</spring-cloud-starter-gateway.version>
         <logbook-spring-boot-starter.version>2.1.0</logbook-spring-boot-starter.version>
         <javax.servlet-api.version>4.0.1</javax.servlet-api.version>
-
+        <leaf-boot-starter.version>1.0.1-RELEASE</leaf-boot-starter.version>
     </properties>
 
 
@@ -183,7 +183,12 @@
                 <version>${javax.servlet-api.version}</version>
                 <scope>provided</scope>
             </dependency>
-
+            <!-- leaf分布式主键生成器 -->
+            <dependency>
+                <groupId>com.sankuai.inf.leaf</groupId>
+                <artifactId>leaf-boot-starter</artifactId>
+                <version>${leaf-boot-starter.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
